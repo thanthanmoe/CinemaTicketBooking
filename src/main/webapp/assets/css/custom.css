@@ -1,0 +1,39 @@
+.aa{
+  background-color: rgb(174, 174, 174);
+ 
+}
+
+.legal {
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+   background:rgb(108, 117, 125);
+   padding: 20px;
+   margin: 0;
+   margin-top: 50px;
+   font-size: 14px;
+ }
+ .navbar{
+   background-color: transparent;
+ }
+ .english{
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .textbody{
+ 
+  width:350px;
+  height:250px;
+}
+ 
+ .column{
+float:left;
+width:30%;
+padding:15px;
+ }
+ .logo{
+   width:30px; 
+ }
+
+.photo{
+   width: 350px;
+   height: 200px;
+}

@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+ 
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+.legal {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  background: rgb(108, 117, 125);
+  padding: 20px;
+  margin: 0;
+  margin-top: 50px;
+  font-size: 14px;
+}
+body {
+  background-color:#ccc;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+.nav > .active > a { 
+  background-color: 	rgb(40, 167, 69); 
+  }
+.header {
+  color: #000000;
+}
+.section-data,.myDD{
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../photo/bg.png');
+}
+.english{
+   font-family: 'Times New Roman', Times, serif;
+}
+.navsection{
+ box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+}
+.column{
+float:left;
+width:30%;
+padding:15px;
+}
+.logo{
+  width:30px; 
+}
+.aa{
+  text-align: center;
+  background-color: rgb(174, 174, 174);
+ 
+}
+.legal {
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+   background:rgb(108, 117, 125);
+   padding: 20px;
+   margin: 0;
+   margin-top: 50px;
+   font-size: 14px;
+ }
+ 
+
+
+ .seat-layout {
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  align-items:center;
+}
+
+
+  .seat-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .seat {
+    height: 40px;
+    width: 43px;
+    margin: 4px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+  }
+  
+  .seat.vip {
+    background-color: gold;
+   
+  }
+  .seat.couple{
+    margin: 6px;
+    width: 68px;
+    height: 40px;
+    border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+    background-color: rgb(150, 8, 8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+   
+  }
+ 
+  
+  .seat-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .seat-label span {
+    font-size: 10px;
+  }
+  
+  .seat-label.br {
+    margin-top: 2px;
+  }
+  
+
+  .container{
+    align-items: center;
+  }
+  .screen {
+    
+    background-color: #000000;
+    height: 190px;
+    width: 60%;
+   
+    transform: rotateX(-48deg);
+    box-shadow: 0 3px 10px rgba(67, 65, 65, 0.7);
+  }
+  .container1 {
+    
+    perspective: 1000px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+  }
+
+  
+  .showcase {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #000000;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none;
+  }
+  
+  .showcase li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+  }
+  .showcase li small {
+    margin-left: 2px;
+  }
+
+  .seat:not(.sold):hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  
+  .showcase .seat:not(.sold):hover {
+    cursor: default;
+    transform: scale(1);
+  }
+
+  .seat.selected {
+    background-color: rgb(98, 163, 98);
+  }
+  
+  .seat.sold {
+    background-color: #000000;
+  }
+  
+  .seat:not(.couple):nth-of-type(3) {
+    margin-right: 18px;
+  }
+  
+  .seat:not(.couple):nth-last-of-type(3) {
+    margin-left: 18px;
+  }
+  .seat.couple:nth-of-type(2) {
+    margin-right: 18px;
+  }
+  
+  .seat.couple:nth-last-of-type(2) {
+    margin-left: 18px;
+  }
+
+  .bb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+    margin: 0;
+  }
